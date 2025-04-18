@@ -9,6 +9,7 @@ Catálogo de filmes criado durante o curso **Sujeito Programador**, onde você p
 - **React.js**
 - **React Router DOM**
 - **Axios**
+- **React Toastify**
 - **JavaScript**
 - **HTML/CSS**
 - **LocalStorage**
@@ -20,6 +21,7 @@ Catálogo de filmes criado durante o curso **Sujeito Programador**, onde você p
 ✔️ Integração com APIs externas usando Axios  
 ✔️ Gerenciamento de rotas com React Router  
 ✔️ Manipulação de estados com useState e useEffect  
+✔️ Estilização de notificações com React Toastify
 ✔️ Armazenamento de dados no navegador com LocalStorage  
 ✔️ Componentização e boas práticas no React  
 ✔️ Tratamento de erros e redirecionamentos  
