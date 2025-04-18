@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# 🎬 PrimeFlix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Catálogo de filmes criado durante o curso **Sujeito Programador**, onde você pode visualizar os filmes em cartaz, salvar seus favoritos e consultar informações detalhadas sobre cada filme.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Tecnologias utilizadas
 
-### `npm start`
+- **React.js**
+- **React Router DOM**
+- **Axios**
+- **JavaScript**
+- **HTML/CSS**
+- **LocalStorage**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧠 O que aprendi com este projeto:
 
-### `npm test`
+✔️ Integração com APIs externas usando Axios  
+✔️ Gerenciamento de rotas com React Router  
+✔️ Manipulação de estados com useState e useEffect  
+✔️ Armazenamento de dados no navegador com LocalStorage  
+✔️ Componentização e boas práticas no React  
+✔️ Tratamento de erros e redirecionamentos  
+✔️ Estilização e responsividade com CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🔗 API utilizada
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [The Movie Database (TMDb)](https://www.themoviedb.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🖼️ Funcionalidades
 
-### `npm run eject`
+### 🏠 Página Home
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Lista os 10 filmes em cartaz no momento.
+- Cada filme exibe título, pôster e botão para mais detalhes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### ℹ️ Página de Detalhes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Exibe título, imagem, sinopse e avaliação do filme.
+- Permite salvar o filme na lista de favoritos.
+- Link para buscar o trailer no YouTube.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 💖 Página de Favoritos
 
-## Learn More
+- Lista os filmes que o usuário salvou.
+- Permite excluir filmes da lista.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🧪 Estrutura de pastas
 
-### Code Splitting
+```bash
+📁 src
+├── 📁 pages
+│   ├── 📁 Home         # Página inicial com listagem dos filmes
+│   ├── 📁 Filme        # Página de detalhes do filme
+│   └── 📁 Favoritos    # Página com filmes salvos
+├── 📁 services
+│   └── api.js          # Configuração do Axios
+└── App.js              # Gerenciamento de rotas
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 💾 Armazenamento
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Utiliza LocalStorage para salvar e excluir filmes favoritos de forma simples e eficiente, sem a necessidade de back-end.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🛠 Como rodar o projeto
+```bash
+# Clone o repositório
+git clone https://github.com/fcdias0812/prime_flix.git
 
-### Advanced Configuration
+# Acesse a pasta
+cd prime_flix
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Instale as dependências
+npm install
 
-### Deployment
+# Rode o projeto
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📌 Observações
+- Este projeto é apenas para fins de aprendizado.
+- A chave da API está visível no código por ser um projeto educacional.
+- Para produção, o ideal é armazenar a chave em variáveis de ambiente.
 
-### `npm run build` fails to minify
+📫 Contato
+Feito com 💙 por Fabrício Dias.
+📬 dias.fabricio0812@gmail.com
+🔗 https://www.linkedin.com/in/fcdias0812/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
