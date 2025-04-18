@@ -1,4 +1,4 @@
-# 🎬 PrimeFlix
+# 🎬 Prime Flix
 
 Catálogo de filmes criado durante o curso **Sujeito Programador**, onde você pode visualizar os filmes em cartaz, salvar seus favoritos e consultar informações detalhadas sobre cada filme.
 
@@ -75,6 +75,7 @@ Utiliza LocalStorage para salvar e excluir filmes favoritos de forma simples e e
 ---
 
 ## 🛠 Como rodar o projeto
+
 ```bash
 # Clone o repositório
 git clone https://github.com/fcdias0812/prime_flix.git
@@ -90,6 +91,7 @@ npm start
 ```
 
 ## 📌 Observações
+
 - Este projeto é apenas para fins de aprendizado.
 - A chave da API está visível no código por ser um projeto educacional.
 - Para produção, o ideal é armazenar a chave em variáveis de ambiente.
@@ -98,4 +100,3 @@ npm start
 Feito com 💙 por Fabrício Dias.
 📬 dias.fabricio0812@gmail.com
 🔗 https://www.linkedin.com/in/fcdias0812/
-
